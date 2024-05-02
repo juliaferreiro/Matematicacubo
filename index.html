@@ -8,30 +8,38 @@
     </head>
     <body>
     
-    <h2> Calculadora de cuadrados y cubos de un binomios</h2>
+    <h2>Calculadora de cuadrados y cubos de un binomios</h2>
+    <div class="Ingresa_valor">
+        <label for="numeroA">Ingresa el valor de A:</label>
+        <input type="number" id="numeroA"><br>
+        
+        <label class="valorB" for="numeroB">Ingresa el valor de B:</label>
+        <input type="number" id="numeroB"> 
+    </div>
     
-    <label for="numeroA">Ingresa el valor de A:</label>
-    <input type="number" id="numeroA">
+    <div class="container">
+        <p>¿Qué queres resolver?</p>
+        <input type="radio" id="cuadrado" name="operacion" value="cuadrado">
+        <label for="cuadrado">Cuadrado de un binomio</label><br>
+        <input type="radio" id="cubo" name="operacion" value="cubo">
+        <label for="cubo">Cubo de un binomio</label><br>
     
-    <label for="numeroB">Ingresa el valor de B:</label>
-    <input type="number" id="numeroB">
+        <button onclick="calcular()">Calcular</button>
+    </div>
     
-    <p>¿Qué queres resolver?</p>
-    <input type="radio" id="cuadrado" name="operacion" value="cuadrado">
-    <label for="cuadrado">Cuadrado de un binomio</label><br>
-    <input type="radio" id="cubo" name="operacion" value="cubo">
-    <label for="cubo">Cubo de un binomio</label><br>
-    
-    <button onclick="calcular()">Calcular</button>
     
     <p id="resultado"></p>
 
     <h2> Calculadora de potencia de números imaginarios </h2>
     
-    <label for="exponente">Ingresa el valor del exponente:</label>
-    <input type="number" id="exponente">
+    <div class="Ingresa_valor">
+        <label for="exponente">Ingresa el valor del exponente:</label>
+        <input type="number" id="exponente">
+        <button onclick="calcularpotencia()">Calcular</button>
+    </div>
+    
 
-    <button onclick="calcularpotencia()">Calcular</button>
+ 
 
     <p id="resultadopotencia"></p>
     

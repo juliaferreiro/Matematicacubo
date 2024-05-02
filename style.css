@@ -1,1 +1,74 @@
+*{
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    background-color: #ffffff;
+}
+h2{
+    font-family: "Gill Sans", sans-serif;
+    padding: 20px;
+   
+}
 
+.Ingresa_valor {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+  }
+  
+  /* Estilos para las etiquetas */
+  .Ingresa_valor label {
+    display: block;
+    margin-bottom: 10px; /* Espacio entre las etiquetas y los inputs */
+  }
+  
+  /* Estilos para los inputs */
+  .Ingresa_valor input{
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre los inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px; }
+
+
+    .container {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .container p {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .container input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      .container label {
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .container button,.Ingresa_valor button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #ffbaff;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+     
+      
+      .container button:hover ,.Ingresa_valor button:hover{
+        background-color: #ff004c;
+      }
